@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+   margin: 0;
+}
+
+menu{
+   display: flex;
+   background-color: #ffffff;
+   justify-content: space-between;
+   position: fixed;
+   top: 0;
+   width: 96vw;
+
+}
+
+nav{
+   display: grid;
+   margin-left: 38px;
+   margin-top: 30px;
+   gap: 30px;
+   position: fixed;
+}
+
+div#videos{
+   display: grid;
+   grid-template: repeat(4, 200px) / repeat(4, 20%) ;
+   justify-content: right;
+   row-gap: 50px;
+   column-gap: 10px;
+   margin-top: 60px;
+}
+
+img{
+   cursor: pointer;
+}
+
+
+
+
+
